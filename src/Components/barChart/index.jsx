@@ -61,6 +61,12 @@ const BarChart = ({ selectedYear }) => {
       yAxis: {
         type: 'value'
       },
+      label: {
+        show: true,
+        position: 'top',
+        color: '#000',
+        fontSize: 12
+      },
       series: [
         {
           type: 'bar',
